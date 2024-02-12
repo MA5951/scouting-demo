@@ -210,7 +210,7 @@ const Scouting = () => {
     </React.Fragment>
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
         <div style={{ color: 'white', textAlign: 'center' }}>
-          <h1 style={{ textAlign: 'center', marginBottom: '20px', fontSize: '48px' }}>Scouting MA 5951</h1>
+          <h1 style={{ textAlign: 'center', marginBottom: '20px', fontSize: '48px' }}>Scouting Demo MA 5951</h1>
           <div style={{ textAlign: 'center' }}>
             <input
               type="number"
@@ -226,7 +226,7 @@ const Scouting = () => {
             <button className="purpleButton" style={{marginLeft: '10px'}} onClick={resetHandleClick}>
               Reset
             </button>
-            <button className='purpleButton' style={{marginLeft: '10px'}} onClick={() => router.replace('/scouting/reload')}>
+            <button className='purpleButton' style={{marginLeft: '10px'}} onClick={() => router.replace('/reload')}>
               Clear canvas
             </button>
             <button className={getShootButtonClassName()} style={{marginLeft: '10px'}} onClick={setToScoreBrush}>
